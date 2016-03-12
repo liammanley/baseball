@@ -1,0 +1,23 @@
+<head>
+  <title>baseball</title>
+</head>
+
+<body>
+  <h1>Welcome to baseball calculations</h1>
+
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <button>Baseball Calculator Counter</button>
+  <p>AB <input type="text" id="AB"></p>
+  <p>H <input type="text" id="H"></p>
+      <p>2B <input type="text" id="B2"></p>
+      <p>3B <input type="text" id="B3"></p>
+      <p>HR <input type="text" id="HR"></p>
+      <p>BB <input type="text" id="BB"></p>
+  <p>AVG<input type="text" id="AVG"></p>
+  <p>SLG<input type="text" id="SLG"></p>
+    <p>OBP<input type="text" id="OBP"></p>
+  <p>You've calculated {{counter}} items.</p>
+</template>
